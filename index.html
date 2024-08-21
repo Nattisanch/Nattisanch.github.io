@@ -91,7 +91,28 @@
         </div>
         <div class="contact-section" id="contact">
             <h2>Contact Me</h2>
-            <h1>This is a work in progress!</h1>
+            <form action="https://api.web3forms.com/submit" method="POST">
+        
+                <input type="hidden" name="access_key" value="aa56d2cc-8762-4dab-9e21-ale3755c499b">
+            
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                
+                
+                <input type="text" name="botcheck" class="hidden" style="display: none;">
+                
+ 
+                <input type="hidden" name="redirect" value="#home">
+                
+                <button type="submit">Submit Form</button>
+            </form>
+        </div>        
         </section>
         </div>
         <footer>
