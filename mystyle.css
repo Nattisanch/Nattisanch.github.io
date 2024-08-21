@@ -218,9 +218,9 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Add space between sections */
+
 .container > div {
-    margin-bottom: 40px; /* Adjust the value as needed */
+    margin-bottom: 40px; 
 }
 
 /* Responsive styles for smaller screens */
