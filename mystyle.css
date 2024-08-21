@@ -61,7 +61,9 @@ nav ul li a:hover {
 .intro h1 {
     color: #ff3366;
 }
-
+.portfolio-section h2{
+    color:#ff3366;
+}
 .btn-group a {
     display: inline-block;
     padding: 10px 20px;
