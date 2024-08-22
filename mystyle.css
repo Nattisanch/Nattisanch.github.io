@@ -1,4 +1,4 @@
-/* Base styles for larger screens */
+/*For larger screens */
 body {
     background-color: #ffffff;
     color: #333;
@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-color: #ffccdd;
+    background-color: #ff3366; 
     padding: 20px;
     text-align: center;
     position: sticky;
@@ -36,8 +36,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff3366;
-    text-decoration: none;
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .profile-section {
@@ -127,6 +127,7 @@ nav ul li a:hover {
 
 .portfolio-item:hover {
     transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .contact-section {
@@ -171,8 +172,8 @@ nav ul li a:hover {
 
 .contact-section button:hover {
     background-color: #ff3366;
+    color: #ffffff; 
 }
-
 
 footer {
     padding: 20px;
@@ -219,10 +220,10 @@ html {
     scroll-behavior: smooth;
 }
 
-
 .container > div {
     margin-bottom: 40px; 
 }
+
 details {
     margin-bottom: 1em;
 }
@@ -238,8 +239,7 @@ summary {
     margin-left: 1em;
 }
 
-
-/* Responsive styles for smaller screens */
+/*for smaller screens */
 @media (max-width: 768px) {
     .profile-section {
         flex-direction: column;
@@ -266,6 +266,6 @@ summary {
     }
 
     .progress-bar {
-        width: 100%;
+        width: 90%;
     }
 }
