@@ -229,7 +229,7 @@ summary {
     margin-left: 1em;
 }
 
-/*for smaller screens */
+/* For smaller screens */
 @media (max-width: 768px) {
     .profile-section {
         flex-direction: column;
@@ -239,6 +239,7 @@ summary {
 
     .intro {
         margin-left: 0;
+        text-align: center;
     }
 
     .portfolio-item {
@@ -246,7 +247,7 @@ summary {
     }
 
     .portfolio-gallery {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         gap: 10px;
     }
 
@@ -257,5 +258,15 @@ summary {
 
     .progress-bar {
         width: 90%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .btn-group a {
+        width: 100%;
+        text-align: center;
     }
 }
