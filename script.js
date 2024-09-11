@@ -17,3 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+function toggleProjects() {
+    var projects = document.getElementById('data-visualization-projects');
+    if (projects.style.display === 'none' || projects.style.display === '') {
+        projects.style.display = 'block';
+    } else {
+        projects.style.display = 'none';
+    }
+}
