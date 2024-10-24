@@ -214,20 +214,6 @@ html {
     margin-bottom: 40px; 
 }
 
-details {
-    margin-bottom: 1em;
-}
-
-summary {
-    color:#ff3366;
-    font-size: 1.2em;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.skill {
-    margin-left: 1em;
-}
 
 /* For smaller screens */
 @media (max-width: 768px) {
